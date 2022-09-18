@@ -1,0 +1,151 @@
+#header {
+	font-size: 1.0 em;
+	color: white;
+	margin-top: -7px;
+	background-color: #009999;
+  font-family: Yu Gothic UI Light;
+  text-align: center;
+}
+
+
+body {
+        height: 100%; 
+		background-image: url('mainpic.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+#header h1 {
+background-color: white;
+color: #009999;
+text-align: left
+}
+
+h1 {
+font-size: 280%;
+}
+
+#Application {
+color: #f2f2f2;
+font-size: 250%;
+}
+
+#Application button {
+  border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.35s;
+  cursor: pointer;
+  background-color: blue;
+}
+
+#Application button:hover {
+  background-color: #1ad1ff;
+  color: white;
+}
+
+#navigation button {
+  border: none;
+  color: #009999;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  background-color: white;
+}
+  
+ #navigation button:hover {
+ background-color: white;
+ color: blue;
+ }
+ 
+ #navigation ul {
+list-style-type: none;
+ }
+ 
+ #navigation li {
+display: inline;
+padding-right: 100px;
+} 
+
+#navigation {
+font-size: 1.2 em;
+color: #009999;
+background-color: white;
+margin-top: -16px;
+  font-family: Yu Gothic UI Light;
+  text-align: left;
+}
+
+#info {
+color: white;
+margin-top: -20px;
+font-family: monospace;
+background: linear-gradient(to bottom right, #009999 0%, blue 100%);
+}
+
+#Angeboteheader {
+text-align: center;
+background-color: white;
+font-size: 270%;
+margin-top: -33px;
+}
+	
+	
+	
+#Angebote img {
+margin-top: 16px;
+}
+
+
+#Angebotename {
+margin-top: -42px;
+background-color: white;
+color: black;
+text-decoration: #009999;
+}
+
+#Angebotetext {
+margin-left: 260px;
+font-size: 140%;
+background-color: white;
+color: black;
+margin-top: -347px;
+text-decoration: #009999;
+}
+
+#Angebotetext button {
+  border: none;
+  color: black;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 12px;
+  margin-left: -6px;
+  margin-top: 2px;
+  font-size: 16px;
+  transition-duration: 0.35s;
+  cursor: pointer;
+  background-color: orange;
+}
+  
+#Angebotetext button:hover {
+ background-color: #ff6600;
+}
